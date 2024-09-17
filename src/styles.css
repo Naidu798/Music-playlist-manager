@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.home {
+  padding: 10px 15px 20px 15px;
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: aqua;
+  min-height: 100vh;
+}
+
+.header {
+  height: 10vh;
+  background-color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: purple;
+  padding-left: 10px;
+}
+.free {
+  color: red;
+}
+
+.music {
+  display: flex;
+  width: 24vw;
+  justify-content: end;
+  margin: 0;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 10px;
+  height: 30px;
+  width: 50%;
+  outline: none;
+  border: blueviolet;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+}
+
+.songs-container {
+  margin-top: 20px;
+}
+
+.song-card {
+  background-color: rgb(98, 125, 243);
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(90, 250, 130);
+  display: flex;
+  align-itens: center;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 10px;
+}
+
+.title-artist {
+  margin-left: 15px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
